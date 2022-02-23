@@ -24,7 +24,9 @@ function freddy(e) {
 function pinhead() {
   // document.querySelector('#show-img').style.color = 'red';
   style = style;
-  document.querySelector('#show-img').textContent = 'PINHEAD';
+  document.querySelector(
+    '#show-img'
+  ).innerHTML = `<img src="./images/pinheadphoto.jpeg">`;
 }
 
 function leatherface(e) {
