@@ -1,0 +1,13 @@
+Horror Movie Picker
+
+Pick a Movie title to reveal the villian from the movie franchise
+ OR
+Pick a Face and see the movie title
+
+Todo:
+  - Create landing page
+  - Create list of all characters
+  - Find Images of all the movie names
+  - Shrink the images down to the same size
+  - Make a grid of all move titles
+  - Find background images of all characters/movies
