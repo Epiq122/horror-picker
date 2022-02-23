@@ -12,9 +12,7 @@ document.querySelector('#predator').onclick = predator;
 let style = (document.querySelector('#show-img').style.color = 'red');
 
 function freddy(e) {
-  console.log(e.target);
-
-  // document.querySelector('#show-img').style.color = 'red';
+  document.querySelector('#title').textContent = 'Freddy Krueger';
   style = style;
   document.querySelector(
     '#show-img'
@@ -22,7 +20,7 @@ function freddy(e) {
 }
 
 function pinhead() {
-  // document.querySelector('#show-img').style.color = 'red';
+  document.querySelector('#title').textContent = 'Pinhead';
   style = style;
   document.querySelector(
     '#show-img'
@@ -30,7 +28,7 @@ function pinhead() {
 }
 
 function leatherface(e) {
-  // document.querySelector('#show-img').style.color = 'red';
+  document.querySelector('#title').textContent = 'Leatherface';
   style = style;
   console.log('clicked');
   document.querySelector(
@@ -38,14 +36,14 @@ function leatherface(e) {
   ).innerHTML = `<img src="./images/leatherfacephoto.jpeg">`;
 }
 function jason() {
-  // document.querySelector('#show-img').style.color = 'red';
+  document.querySelector('#title').textContent = 'Jason Voorhees';
   style = style;
   document.querySelector(
     '#show-img'
   ).innerHTML = `<img src="./images/jasonphoto.jpeg">`;
 }
 function chucky() {
-  // document.querySelector('#show-img').style.color = 'red';
+  document.querySelector('#title').textContent = 'Chucky';
   style = style;
   document.querySelector(
     '#show-img'
@@ -53,7 +51,7 @@ function chucky() {
 }
 
 function ghostface() {
-  // document.querySelector('#show-img').style.color = 'red';
+  document.querySelector('#title').textContent = 'Ghostface';
   style = style;
   document.querySelector(
     '#show-img'
@@ -61,28 +59,30 @@ function ghostface() {
 }
 
 function saw() {
-  // document.querySelector('#show-img').style.color = 'red';
+  document.querySelector('#title').textContent = 'Billy the Puppet';
   style = style;
   document.querySelector(
     '#show-img'
   ).innerHTML = `<img src="./images/saw2.jpeg">`;
 }
 function lephracaun() {
-  // document.querySelector('#show-img').style.color = 'red';
+  document.querySelector('#title').textContent = 'Leprechaun';
+
   style = style;
   document.querySelector(
     '#show-img'
   ).innerHTML = `<img src="./images/lepphoto.jpeg">`;
 }
 function alien() {
-  // document.querySelector('#show-img').style.color = 'red';
+  document.querySelector('#title').textContent = 'Xenomorph';
   style = style;
   document.querySelector(
     '#show-img'
   ).innerHTML = `<img src="./images/alienphoto.jpeg">`;
 }
 function predator() {
-  // document.querySelector('#show-img').style.color = 'red';
+  document.querySelector('#title').textContent = 'Predator';
+
   style = style;
   document.querySelector(
     '#show-img'
