@@ -33,42 +33,58 @@ function leatherface(e) {
   // document.querySelector('#show-img').style.color = 'red';
   style = style;
   console.log('clicked');
-  document.querySelector('#show-img').textContent = 'Leatherface';
+  document.querySelector(
+    '#show-img'
+  ).innerHTML = `<img src="./images/leatherfacephoto.jpeg">`;
 }
 function jason() {
   // document.querySelector('#show-img').style.color = 'red';
   style = style;
-  document.querySelector('#show-img').textContent = 'jason';
+  document.querySelector(
+    '#show-img'
+  ).innerHTML = `<img src="./images/jasonphoto.jpeg">`;
 }
 function chucky() {
   // document.querySelector('#show-img').style.color = 'red';
   style = style;
-  document.querySelector('#show-img').textContent = 'chucky';
+  document.querySelector(
+    '#show-img'
+  ).innerHTML = `<img src="./images/chuckyphoto.jpeg">`;
 }
 
 function ghostface() {
   // document.querySelector('#show-img').style.color = 'red';
   style = style;
-  document.querySelector('#show-img').textContent = 'ghost face';
+  document.querySelector(
+    '#show-img'
+  ).innerHTML = `<img src="./images/ghostfacephoto.jpeg">`;
 }
 
 function saw() {
   // document.querySelector('#show-img').style.color = 'red';
   style = style;
-  document.querySelector('#show-img').textContent = 'Saw';
+  document.querySelector(
+    '#show-img'
+  ).innerHTML = `<img src="./images/saw2.jpeg">`;
 }
 function lephracaun() {
   // document.querySelector('#show-img').style.color = 'red';
   style = style;
-  document.querySelector('#show-img').textContent = 'Lepracaun';
+  document.querySelector(
+    '#show-img'
+  ).innerHTML = `<img src="./images/lepphoto.jpeg">`;
 }
 function alien() {
   // document.querySelector('#show-img').style.color = 'red';
   style = style;
-  document.querySelector('#show-img').textContent = 'Alien';
+  document.querySelector(
+    '#show-img'
+  ).innerHTML = `<img src="./images/alienphoto.jpeg">`;
 }
 function predator() {
   // document.querySelector('#show-img').style.color = 'red';
   style = style;
-  document.querySelector('#show-img').textContent = 'Predator';
+  document.querySelector(
+    '#show-img'
+  ).innerHTML = `<img src="./images/predatorphoto.jpeg">`;
 }
